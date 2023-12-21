@@ -1,1 +1,19 @@
-key: val
+COLUMNS:
+  id: int64  
+  song_duration_ms: float64
+  acousticness: float64
+  danceability: float64
+  energy: float64
+  instrumentalness: float64
+  key: float64
+  liveness: float64
+  loudness: float64
+  audio_mode: int64  
+  speechiness: float64
+  tempo: float64
+  time_signature: int64  
+  audio_valence: float64
+  song_popularity: int64
+
+TARGET_COLUMN:
+  name: song_popularity
