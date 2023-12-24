@@ -2,6 +2,7 @@ from src.SongPopularityPrediction import logger
 from src.SongPopularityPrediction.pipeline.stage_1_data_ingestion import DataIngestionTrainingPipeline
 from src.SongPopularityPrediction.pipeline.stage_2_validation import DataValidationTrainingPipeline
 from src.SongPopularityPrediction.pipeline.stage_3_transformation import DataTransformationTrainingPipeline
+from src.SongPopularityPrediction.pipeline.stage_4_model_training import ModelTrainerTrainingPipeline
 
 STAGE_NAME="Data Ingestion stage"
 
@@ -34,3 +35,13 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+STAGE_NAME = "Model Trainer stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = ModelTrainerTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e

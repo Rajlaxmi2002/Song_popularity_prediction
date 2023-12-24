@@ -1,1 +1,4 @@
-key: val
+AdaBoost:
+    alpha: 0.5
+    n_estimators: 90
+    base_estimator__max_depth: 14 
