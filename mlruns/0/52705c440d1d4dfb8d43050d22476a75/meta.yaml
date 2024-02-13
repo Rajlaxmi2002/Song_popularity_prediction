@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/52705c440d1d4dfb8d43050d22476a75/artifacts
+end_time: 1704222347599
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52705c440d1d4dfb8d43050d22476a75
+run_name: dazzling-duck-792
+run_uuid: 52705c440d1d4dfb8d43050d22476a75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704222339174
+status: 3
+tags: []
+user_id: Admin

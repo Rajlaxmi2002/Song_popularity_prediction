@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/44db0da6c4fe4b7cad6d86e2d1082837/artifacts
+end_time: 1703544061713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44db0da6c4fe4b7cad6d86e2d1082837
+run_name: fearless-finch-747
+run_uuid: 44db0da6c4fe4b7cad6d86e2d1082837
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703544055876
+status: 3
+tags: []
+user_id: Admin

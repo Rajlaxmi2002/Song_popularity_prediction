@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        
+    <!-- Compiled CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link link rel="stylesheet" type="text/css" href="E:\projects\song_popularity\Song_popularity_prediction\static\css\style.css">
+    <link href="static/css/style.css" rel="stylesheet" />
+</head>
+<body >
+    <div class="home-body">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{url_for('home')}}">Home</a>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link" href="{{url_for('predict')}}">Predict</a>
+                  </li>
+                
+              </ul>
+            </div>
+          </nav>
+        
+        <div class="title-container">
+            <h1>Song Popularity Prediction</h1>
+            <h2>Predict whether a song will be popular or not</h2>
+        
+        </div>
+    </div>    
+    <div class="container-data">
+        <div class="f-image-container">
+            <img src="static\assests\images\i1.jpg" alt="Your Image">
+            <div class="overlay"></div>
+        </div>
+        
+        <div class="text-container">
+            <form class="form-detail" action="/predict" method="post">
+				<h2>Fill following details about the song:</h2>
+				<div class="form-row-total">
+
+					<div class="form-row">
+                        <label for="id">Id:</label>
+						<input type="text" name="id" id="id" class="input-text" placeholder="id" required>
+					</div>
+
+					<div class="form-row">
+                        <label for="song_duration_ms"> Song Duration(in ms):</label>
+						<input type="text" name="song_duration_ms" id="song_duration_ms" class="input-text" placeholder="song_duration_ms" required>
+					</div>
+
+				</div>
+
+
+				<div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="acousticness"> Acousticness:</label>
+						<input type="text" name="acousticness" id="acousticness" class="input-text" placeholder="acousticness" required>
+					</div>
+
+
+                    <div class="form-row">
+                        <label for="danceability"> Danceability:</label>
+						<input type="text" name="danceability" id="danceability" class="input-text" placeholder="danceability" required>
+					</div>
+
+				</div>
+
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="energy"> Energy:</label>
+						<input type="text" name="energy" id="energy" class="input-text" placeholder="energy" required>
+					</div>
+
+                    <div class="form-row">
+                        <label for="instrumentalness"> Instrumentalness:</label>
+						<input type="text" name="instrumentalness" id="instrumentalness" class="input-text" placeholder="instrumentalness" required>
+					</div>
+
+				</div>
+
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="key"> Key:</label>
+						<input type="text" name="key" id="key" class="input-text" placeholder="key" required>
+					</div>
+
+                    <div class="form-row">
+                        <label for="liveness"> Liveness:</label>
+						<input type="text" name="liveness" id="liveness" class="input-text" placeholder="liveness" required>
+					</div>
+
+				</div>
+
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="loudness"> Loudness:</label>
+						<input type="text" name="loudness" id="loudness" class="input-text" placeholder="loudness" required>
+					</div>
+
+                    <div class="form-row">
+                        <label for="audio_modes"> Audio modes:</label>
+						<input type="text" name="audio_modes" id="audio_modes" class="input-text" placeholder="audio_modes" required>
+					</div>
+
+				</div>
+
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="speechiness"> Speechiness:</label>
+						<input type="text" name="speechiness" id="speechiness" class="input-text" placeholder="speechiness" required>
+					</div>
+
+
+				</div>
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="tempo"> tempo:</label>
+						<input type="text" name="tempo" id="tempo" class="input-text" placeholder="tempo" required>
+					</div>
+
+
+				</div>
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="time_signature"> time_signature:</label>
+						<input type="text" name="time_signature" id="time_signature" class="input-text" placeholder="time_signature" required>
+					</div>
+
+
+				</div>
+
+                <div class="form-row-total">
+
+                    <div class="form-row">
+                        <label for="audio_valence"> audio_valence:</label>
+						<input type="text" name="audio_valence" id="audio_valence" class="input-text" placeholder="audio_valence" required>
+					</div>
+
+
+				</div>
+
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register btn btn-dark" value="Predict">
+				</div>
+                <!-- btn btn-dark -->
+			</form>
+        </div>
+    </div>
+	
+		
+			
+		
+       
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

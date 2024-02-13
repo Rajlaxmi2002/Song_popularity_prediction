@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/1c4764bffad94d749fea45d3c4519123/artifacts
+end_time: 1703540752735
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c4764bffad94d749fea45d3c4519123
+run_name: handsome-ant-781
+run_uuid: 1c4764bffad94d749fea45d3c4519123
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703540745792
+status: 3
+tags: []
+user_id: Admin

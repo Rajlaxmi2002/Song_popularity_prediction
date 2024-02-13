@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/26332f862daf4a10825510e3520a4e51/artifacts
+end_time: 1704413062091
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26332f862daf4a10825510e3520a4e51
+run_name: powerful-bass-381
+run_uuid: 26332f862daf4a10825510e3520a4e51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704413054922
+status: 3
+tags: []
+user_id: Admin

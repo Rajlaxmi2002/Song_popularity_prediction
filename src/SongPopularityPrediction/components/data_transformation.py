@@ -27,6 +27,10 @@ class DataTransformation:
 
         encoder = OneHotEncoder(handle_unknown='ignore')
         encoder_X = pd.DataFrame(encoder.fit_transform(X[['key','time_signature']]).toarray())
+        import pickle
+        with open(os.path.join(self.config.root_dir,"encoder.pickle"), 'wb') as f:
+            pickle.dump(encoder, f)
+        f.close()
         X=X.join(encoder_X)
         X.drop(['key','time_signature'],axis=1,inplace=True)
 
@@ -48,6 +52,6 @@ class DataTransformation:
         train.to_csv(os.path.join(self.config.root_dir,"train.csv"),index=False)
         test.to_csv(os.path.join(self.config.root_dir,"test.csv"),index=False)
 
-        logger.info("Data tranformation and splitting it into traina and test")
+        logger.info("Data tranformation and splitting it into train and test")
         logger.info(train.shape)
         logger.info(test.shape)

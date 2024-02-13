@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/f4638f1a3fb64298a6ac7127711a1cc3/artifacts
+end_time: 1703543536541
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4638f1a3fb64298a6ac7127711a1cc3
+run_name: traveling-mouse-416
+run_uuid: f4638f1a3fb64298a6ac7127711a1cc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543528497
+status: 3
+tags: []
+user_id: Admin

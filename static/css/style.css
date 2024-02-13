@@ -1,0 +1,183 @@
+.body{
+    display: flex;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: black!important;
+}
+.home-body{  
+    background-color:rgb(0, 0, 0);
+    margin: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: rgb(233, 225, 225);
+}
+
+nav.navbar {
+    background-color:rgb(0, 0, 0);
+    font-size: larger !important;
+}
+
+#main-content{
+    
+    background-color: black;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+#main-content h2{
+    color: rgb(52, 52, 52) !important;
+    
+}
+
+
+  .container-data{
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  .image-container {
+    flex: 0.5;
+    position: relative;
+    overflow: hidden;
+  }
+
+.image-container img {
+    height: 100%;
+    display: block;
+    
+}
+
+.text-container {
+    background-color:rgb(203, 199, 199);
+    flex: 1;
+    padding: 50px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgb(203, 199, 199)); /* Adjust color as needed */
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, transparent, rgb(203, 199, 199)); /* Adjust color as needed */
+}
+.title-container {
+    padding: 10%;
+   
+    position: relative;
+    height: 400pt;
+    background-image: radial-gradient(circle,transparent,black), url('../assests/images/g1.gif')!important;
+    background-size: 40%;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.title-container h1{
+    color: white;
+}
+
+.title-container h2{
+    color: rgb(179, 179, 179);
+}
+.title-container::before,
+        .title-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%; /* Adjust the width of the gradient as needed */
+            background: radial-gradient(circle,transparent,transparent, rgba(0, 0, 0, 1));
+           
+        }
+
+/* Form Page */
+
+
+.form-row{
+    padding: 2%;
+    
+}
+.form-detail{
+color: black;
+padding: 5%;
+}
+
+.f-image-container {
+    flex: 0.85;
+    position: relative;
+    overflow: hidden;
+  }
+
+.f-image-container img {
+    height: 100%;
+    display: block;
+    
+}
+
+.form-row-last{
+    justify-self: center;
+    padding: 2%;
+}
+
+.result-page h1{
+    color:black
+}
+
+/* Results Page */
+
+.r-image-container {
+    
+    position: relative;
+    overflow: hidden;
+  }
+
+.r-image-container img {
+    height: 100%;
+    display: block;
+}
+
+.r-body{
+    display: flex;
+    flex-direction: column;
+}
+.r-container-data{
+    height: 20%!important;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+
+  .logo {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    margin: 8px; /* Add some spacing if needed */
+  }

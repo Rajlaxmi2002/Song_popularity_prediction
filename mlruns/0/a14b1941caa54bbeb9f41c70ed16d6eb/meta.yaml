@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/a14b1941caa54bbeb9f41c70ed16d6eb/artifacts
+end_time: 1703419633447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a14b1941caa54bbeb9f41c70ed16d6eb
+run_name: bald-bear-506
+run_uuid: a14b1941caa54bbeb9f41c70ed16d6eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703419628411
+status: 3
+tags: []
+user_id: Admin

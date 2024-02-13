@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/projects/song_popularity/Song_popularity_prediction/mlruns/0/024b7a768b5c4255aa2b9bb53a96cb68/artifacts
+end_time: 1703543189563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 024b7a768b5c4255aa2b9bb53a96cb68
+run_name: learned-crow-678
+run_uuid: 024b7a768b5c4255aa2b9bb53a96cb68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703543184094
+status: 3
+tags: []
+user_id: Admin
