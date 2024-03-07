@@ -11,6 +11,7 @@ is_trained=False
 
 @app.route('/',methods=['GET'])
 def home():
+    print("homepage")
     return render_template("home.html")
 
 @app.route('/predict',methods=['POST','GET']) # route to show the predictions in a web UI

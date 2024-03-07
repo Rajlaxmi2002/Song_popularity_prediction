@@ -63,9 +63,7 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/Rajlaxmi2002/Song_popularity_prediction.mlflow \
-MLFLOW_TRACKING_USERNAME=Rajlaxmi2002 \
-MLFLOW_TRACKING_PASSWORD=1b37ff51c41d7a44a119df92f444bb51309bcfd2 \
+
 python script.py
 
 Run this to export as env variables:
