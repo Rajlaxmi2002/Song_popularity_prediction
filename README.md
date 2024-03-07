@@ -57,24 +57,5 @@ open up you local host and port
 [Documentation](https://mlflow.org/docs/latest/index.html)
 
 
-##### cmd
-- mlflow ui
 
-### dagshub
-[dagshub](https://dagshub.com/)
-
-
-python script.py
-
-Run this to export as env variables:
-
-```bash
-
-set MLFLOW_TRACKING_URI=https://dagshub.com/Rajlaxmi2002/Song_popularity_prediction.mlflow
-
-set MLFLOW_TRACKING_USERNAME=Rajlaxmi2002
-
-set MLFLOW_TRACKING_PASSWORD=1b37ff51c41d7a44a119df92f444bb51309bcfd2
-
-```
 
